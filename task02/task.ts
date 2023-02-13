@@ -15,18 +15,18 @@ class Osoba {
     }
   }
   
-  const osoba1 = new Osoba("John", "Doe", 1990);
-  const osoba2 = new Osoba("Jane", "Doe", 1995);
-  const osoba3 = new Osoba("Jim", "Smith", 1985);
+  const osoba1 = new Osoba("Cedomir", "Tomcic", 1990);
+  const osoba2 = new Osoba("Nenad", "Rosevic", 1995);
+  const osoba3 = new Osoba("Stefan", "Cvijic", 1985);
   
   console.log(osoba1.ime + " " + osoba1.prezime + " ima " + osoba1.izračunajStarost() + " godina.");
   console.log(osoba2.ime + " " + osoba2.prezime + " ima " + osoba2.izračunajStarost() + " godina.");
   console.log(osoba3.ime + " " + osoba3.prezime + " ima " + osoba3.izračunajStarost() + " godina.");
 
   const osobe = [
-    new Osoba("John", "Doe", 1990),
-    new Osoba("Jane", "Doe", 1995),
-    new Osoba("Jim", "Smith", 1985)
+    new Osoba("Mateja", "Popovic", 1990),
+    new Osoba("Aleksandar", "Rac", 1995),
+    new Osoba("Dragan", "Vukasinovic", 1985)
   ];
   
   const filtriraneOsobe = osobe.filter(osoba => osoba. izračunajStarost() >= 30);
