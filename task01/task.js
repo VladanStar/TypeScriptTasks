@@ -22,3 +22,15 @@ auto2.povećajBrzinu(40);
 console.log(auto2.brzina); // 40
 auto3.smanjiBrzinu(20);
 console.log(auto3.brzina); // -20
+const automobili = [
+    new Automobil("Toyota", "Camry", 2015, 120),
+    new Automobil("Honda", "Civic", 2020, 150),
+    new Automobil("Tesla", "Model S", 2018, 200)
+];
+for (const auto of automobili) {
+    console.log("Marka: " + auto.marka);
+    console.log("Model: " + auto.model);
+    console.log("Godina proizvodnje: " + auto.godinaProizvodnje);
+    console.log("Brzina: " + auto.brzina + " km/h");
+    console.log("");
+}
