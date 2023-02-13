@@ -20,9 +20,9 @@ class Automobil {
     }
   }
   
-  const auto1 = new Automobil("Tesla", "Model S", 2022, 0);
-  const auto2 = new Automobil("Toyota", "Camry", 2021, 0);
-  const auto3 = new Automobil("Honda", "Civic", 2020, 0);
+  const auto1 = new Automobil("Tesla", "Model S", 2022, 100);
+  const auto2 = new Automobil("Toyota", "Camry", 2021, 70);
+  const auto3 = new Automobil("Honda", "Civic", 2020, 50);
   
   auto1.povećajBrzinu(50);
   console.log(auto1.brzina); // 50
